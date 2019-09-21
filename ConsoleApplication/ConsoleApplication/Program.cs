@@ -7,6 +7,7 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             Console.WriteLine("================================================================================================");
+            Console.WriteLine("================================================================================================");
             //Variables Containing my Name and Location
             string myName = "Oswaldo Rodriguez", myLocation = "Columbia, SC";
             Console.WriteLine($"My name is {myName}.");
@@ -23,11 +24,17 @@ namespace ConsoleApplication
             int days = daysLeft.Days;
             Console.WriteLine($"Therefore, there are {days.ToString()} days before Christmas, get your Christmas gifts ready!.");
             Console.WriteLine("================================================================================================");
+            Console.WriteLine("================================================================================================");
+            Console.WriteLine("\n");
+            Console.WriteLine("================================================================================================");
+            Console.WriteLine("================================================================================================");
             Console.WriteLine("Program from the Book");
+
             double width, height, woodLength, glassArea;
             string widthString, heightString;
-
+            Console.WriteLine("Please type the width of the window");
             widthString = Console.ReadLine();
+            Console.WriteLine("Please type the height of the window");
             width = double.Parse(widthString);
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
