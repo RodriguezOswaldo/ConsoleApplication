@@ -28,7 +28,7 @@ namespace ConsoleApplication
             Console.WriteLine("\n");
             Console.WriteLine("================================================================================================");
             Console.WriteLine("================================================================================================");
-            Console.WriteLine("Program from the Book");
+            Console.WriteLine("PROGRAM FROM THE BOOK!");
 
             double width, height, woodLength, glassArea;
             string widthString, heightString;
@@ -42,6 +42,9 @@ namespace ConsoleApplication
             glassArea = 2 * (width * height);
             Console.WriteLine("The length of the wood is " + woodLength + " feet");
             Console.WriteLine("The area of the glass is " + glassArea + " square metres");
+            Console.WriteLine("================================================================================================");
+            Console.WriteLine("================================================================================================");
+            Console.ReadKey();
         }
     }
 }
